@@ -8,7 +8,7 @@ Realizar un programa en C que determine el area del circulo
 
 void main()
 {
-    float radio, are=0;
+    float radio, area=0;
     printf ("Ingrese el radio :");
     scanf("%f",&radio);
     area=pi*radio*radio;
