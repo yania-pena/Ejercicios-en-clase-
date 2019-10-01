@@ -1,0 +1,16 @@
+/******************************************************************************
+
+Realizar un programa en C que determine el area del circulo
+
+*******************************************************************************/
+#include <stdio.h>
+#define pi 3.1416
+
+void main()
+{
+    float radio, are=0;
+    printf ("Ingrese el radio :");
+    scanf("%f",&radio);
+    area=pi*radio*radio;
+    printf("El área es %f",area);
+}
